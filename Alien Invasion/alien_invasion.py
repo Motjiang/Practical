@@ -6,9 +6,9 @@ from ship import Ship
 
 class AlienInvasion:
 
-    def __int__(self):
+    def __init__(self):
         pygame.init()
-        self.clock = pygame.time.clock()
+        self.clock = pygame.time.Clock()
         self.settings = Settings()
 
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
